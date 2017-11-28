@@ -6,7 +6,7 @@
 FROM centos:centos7
 MAINTAINER The CentOS Project <cloud-ops@centos.org>
 
-# created to learn how to track a dokerfile changes
+# created to learn how to track a dokerfile changes; also edited on github for test
 #   Alex Piccolo <alexpiccolo@gmail.com>
 
 RUN yum -y update; yum clean all; yum -y install yum-utils \
