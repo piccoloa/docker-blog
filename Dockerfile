@@ -12,7 +12,8 @@ MAINTAINER The CentOS Project <cloud-ops@centos.org>
 
 
 RUN yum -y update; yum clean all; yum -y install yum-utils \
-    yum -y groupinstall development
+    yum -y groupinstall development \
+    yum -y install https://centos7.iuscommunity.org/ius-release.rpm
 
 EXPOSE 8000
 
